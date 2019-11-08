@@ -2,13 +2,13 @@
 //COMP333 Assignment 2
 
 #include <iostream>
-#include "SodaPop.h"
+#include "CandyMachine.h"
 
 
 
 
-SodaPop::SodaPop() {
-	
+CandyMachine::CandyMachine() {
+
 	cout << "What is the price of " << *productName << ": ";
 	cin >> price;
 	while (price <= 0 || price > 100 || cin.fail()) {
@@ -21,7 +21,7 @@ SodaPop::SodaPop() {
 	cin.ignore(80, '\n');
 }
 
-SodaPop::SodaPop(int newQtyOnHand, string newProductName, double newPrice)
+CandyMachine::CandyMachine(int newQtyOnHand, string newProductName, double newPrice)
 	: VendingMachine::VendingMachine(newProductName, newQtyOnHand) {
 
 	price = newPrice;
@@ -31,16 +31,16 @@ SodaPop::SodaPop(int newQtyOnHand, string newProductName, double newPrice)
 		cin >> price;
 		cin.ignore(80, '\n');
 	}
-	
+
 }
 
-void SodaPop::show(ostream & output) const {
+void CandyMachine::show(ostream & output) const {
 	VendingMachine::show(output);
-	
+
 	output << " Price: " << price;
 }
 
-void SodaPop::buyPop() {
+void CandyMachine::buyPop() {
 	if (qtyOnHand > 0) {
 		qtyOnHand--;
 		cout << *productName << " has been purchased.\n";

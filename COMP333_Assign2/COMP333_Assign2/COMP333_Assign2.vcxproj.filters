@@ -24,12 +24,18 @@
     <ClCompile Include="SodaPop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CandyMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VendingMachine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SodaPop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CandyMachine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
