@@ -1,5 +1,5 @@
 //Darrell Crouse
-//COMP333 Assignment 2w
+//COMP333 Assignment 2
 
 #pragma once
 

@@ -111,9 +111,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Client_Code.cpp" />
+    <ClCompile Include="SodaPop.cpp" />
     <ClCompile Include="VendingMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SodaPop.h" />
     <ClInclude Include="VendingMachine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
