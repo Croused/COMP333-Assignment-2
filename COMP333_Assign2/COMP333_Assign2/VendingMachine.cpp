@@ -50,8 +50,9 @@ VendingMachine::VendingMachine(string newProductName, int newQtyOnHand) {
 		cin.clear();
 		cout << "The quantity must be 0 or larger, and less than 100.  Enter how many " << *productName << " are on hand: ";
 		cin >> qtyOnHand;
+		cin.ignore(80, '\n');
 	}
-	cin.ignore(80, '\n');
+	
 }
 
 
