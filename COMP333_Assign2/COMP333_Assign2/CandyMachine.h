@@ -14,7 +14,7 @@ public:
 		string, /*Product Name*/
 		double /*Price*/);
 	void show(ostream & /*output destination*/) const;
-	void buyPop();
+	void buyCandy();
 	double getPrice() const { return price; }
 
 };

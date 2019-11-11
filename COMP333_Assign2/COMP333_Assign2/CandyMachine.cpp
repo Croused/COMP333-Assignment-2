@@ -40,7 +40,7 @@ void CandyMachine::show(ostream & output) const {
 	output << " Price: " << price;
 }
 
-void CandyMachine::buyPop() {
+void CandyMachine::buyCandy() {
 	if (qtyOnHand > 0) {
 		qtyOnHand--;
 		cout << *productName << " has been purchased.\n";
