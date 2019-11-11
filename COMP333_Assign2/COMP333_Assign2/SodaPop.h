@@ -1,5 +1,6 @@
 //Darrell Crouse
 //COMP333 Assignment 2
+// A program to manage Vending Machines.  
 
 #pragma once
 

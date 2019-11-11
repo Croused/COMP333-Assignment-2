@@ -1,5 +1,7 @@
 //Darrell Crouse
 //COMP333 Assignment 2
+// A program to manage Vending Machines.  
+
 #pragma once
 #include "VendingMachine.h"
 
@@ -11,8 +13,8 @@ private:
 public:
 	CandyMachine();
 	CandyMachine(int, /*Quantity On Hand*/
-		string, /*Product Name*/
-		double /*Price*/);
+				 string, /*Product Name*/
+				 double /*Price*/);
 	void show(ostream & /*output destination*/) const;
 	void buyCandy();
 	double getPrice() const { return price; }

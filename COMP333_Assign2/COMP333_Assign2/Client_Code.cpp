@@ -1,10 +1,12 @@
 //Darrell Crouse
 //COMP333 Assignment 2
+// A program to manage Vending Machines.  
 
 
 #include <iostream>
 #include <iomanip>
 #include <cassert>
+
 #include "VendingMachine.h"
 #include "SodaPop.h"
 #include "CandyMachine.h"
@@ -12,8 +14,6 @@
 using namespace std;
 
 void showInfo(const VendingMachine* /*Vending Object*/);
-
-
 
 int main()
 {
@@ -121,11 +121,6 @@ int main()
 	system("pause");
 }
 
-
-
-
-
-//
 
 void showInfo(const VendingMachine *VendObj) {
 	VendObj->show(cout);
